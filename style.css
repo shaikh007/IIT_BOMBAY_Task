@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+th {
+    cursor: pointer;
+}
+
+tr {
+    cursor: pointer
+}
+
+.selected {
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    font-weight: bold
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
